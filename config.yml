@@ -2,6 +2,9 @@
 baseURL: "https://example.com"
 theme: "terminalcv"
 title: "terminalcv"
+caches:
+  images:
+    dir: :cacheDir/images
 
 params:
   version: "2.0.0"
